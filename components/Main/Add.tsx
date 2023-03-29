@@ -27,6 +27,7 @@ export default function Add() {
       <View style={styles.container}>
         <Text style={{ textAlign: 'center' }}>
           We need your permission to show the camera
+          
         </Text>
         <Button onPress={requestPermission}>grant permission</Button>
       </View>
