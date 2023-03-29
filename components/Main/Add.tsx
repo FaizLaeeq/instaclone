@@ -21,6 +21,7 @@ export default function Add() {
   }
 
   if (!permission.granted) {
+    
     // Camera permissions are not granted yet
     return (
       <View style={styles.container}>
